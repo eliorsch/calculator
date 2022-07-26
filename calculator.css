@@ -73,7 +73,7 @@ body {
     display: flex;
     background-color: #031265;
     color: white;
-    font-size: x-large;
+    font-size: 2em;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 5px 0px rgb(187 186 186 / 70%);
