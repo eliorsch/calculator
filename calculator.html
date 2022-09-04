@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script defer src="calculator.js"></script>
+</head>
+<body>
+    <div id="zone">
+        <div id="calc">
+            <div id="display">
+                <div id="function" class="displayed"></div>
+                <div id="current">
+                    <div id="operand" class="displayed"></div>
+                    <div id="operator" class="displayed"></div>
+                </div>
+            </div>
+            <div id="zone_buttons">
+                <div class="linear_line"></div>
+                <div id="zone_numbers" class="button_divs">
+                    <button class="button" onclick="cc()">C</button>
+                    <button class="button" onclick="ce()">CE</button>
+                    <button class="button" onclick="cLast()"> <<< </button>
+                    <button class="button" onclick="regularEntry(1)">1</button>
+                    <button class="button" onclick="regularEntry(2)">2</button>
+                    <button class="button" onclick="regularEntry(3)">3</button>
+                    <button class="button" onclick="regularEntry(4)">4</button>
+                    <button class="button" onclick="regularEntry(5)">5</button>
+                    <button class="button" onclick="regularEntry(6)">6</button>
+                    <button class="button" onclick="regularEntry(7)">7</button>
+                    <button class="button" onclick="regularEntry(8)">8</button>
+                    <button class="button" onclick="regularEntry(9)">9</button>
+                    <button class="button" onclick="regularEntry('.')">.</button>
+                    <button class="button" onclick="regularEntry(0)">0</button>
+                </div>
+                <div class="linear_line"></div>
+                <div id="zone_operators" class="button_divs">
+                    <button class="button" onclick="regularEntry('+')">+</button>
+                    <button class="button" onclick="regularEntry('-')">-</button>
+                    <button class="button" onclick="regularEntry('/')">/</button>
+                    <button class="button" onclick="regularEntry('*')">*</button>
+                    <button class="button" onclick="regularEntry('=')" >=</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
