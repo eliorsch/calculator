@@ -50,10 +50,10 @@ function cc() {
 
 function ce() {
     
-    if (isNaN(eqesion.value[eqesion.length-1])) 
+     if (isNaN(eqesion.value[eqesion.value.length-1])) 
             eqesion.value = eqesion.value.slice(0, -1);
     else 
-            while (!isNaN(eqesion.value[eqesion.length-1]))         eqesion.value = eqesion.value.slice(0, -1);
+            while (!isNaN(eqesion.value[eqesion.value.length-1]))         eqesion.value = eqesion.value.slice(0, -1);
     updateDisplayB();
 }
 
